@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #010103;
+}
+@layer utilities{
+    .c-space{
+        @apply sm:px-10 px-5;
+    }
+}
