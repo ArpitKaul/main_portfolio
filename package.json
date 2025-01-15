@@ -4,21 +4,27 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^9.120.8",
+    "@react-three/fiber": "^8.17.12",
+    "leva": "^0.9.35",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-responsive": "^10.0.0",
+    "three": "^0.172.0"
   },
   "devDependencies": {
+    "@react-three/eslint-plugin": "^0.1.2",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.20",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",

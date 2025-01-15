@@ -1,12 +1,14 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import Navbar from './Sections/Navbar'
+import Hero from './Sections/Hero'
 
 
 const App = () => {
   return (
     <main className='max-w-7xl mx-auto'>
       <Navbar/>
+      <Hero/>
     </main>
   )
 }
