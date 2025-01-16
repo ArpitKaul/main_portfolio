@@ -28,7 +28,7 @@ const Hero = () => {
             <Model
               position={[0.4, -1.5, 2]}
               rotation={[0.0, 0.6,0.0]}
-              scale={[1.1, 1.1, 1.1]}
+              scale={[1.1, 1.1, 1.1]} 
             />
             {/* Enhanced Lighting */}
             <ambientLight intensity={0.8} />
