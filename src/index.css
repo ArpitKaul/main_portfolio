@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 body{
-    background: #010103;
+    background-image: url('/src/assets/4.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
+
 @layer utilities{
     .c-space{
         @apply sm:px-10 px-5;
