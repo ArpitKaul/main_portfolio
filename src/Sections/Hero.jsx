@@ -3,7 +3,11 @@
   import Model from "../components/Model";
   import { Suspense, useState, useRef } from "react";
   import CanvasLoader from "../components/CanvasLoader";
-  import { useMediaQuery } from "react-responsive";
+  import { Typewriter } from "react-simple-typewriter";
+  import { useMediaQuery } from 
+  "react-responsive";
+  import Target from "../components/Target";
+ 
 
   const Hero = () => {
     const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -62,12 +66,26 @@
               isMobile ? "text-center mt-3" : "ml-[18.8rem] mt-2"
             }`}
           >
-            A Frontend Developer
+            <Typewriter
+              words={[
+                "A Frontend Developer",
+                "A problem Solver",
+                "A Creative Thinker",
+              ]}
+              loop={true}
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+             
+            />
+           
           </p>
         </div>
         <div className="flex justify-center text-white mt-3">
-          <button className="text-white">Resume</button>
-          <button className="ml-9">Hire Me</button>
+          <button className="text-black  bg-yellow-500 w-28 rounded-2xl h-9">Resume</button>
+          <button className="ml-7 text-white  bg-gray-700 w-28 rounded-2xl  h-9">Hire Me</button>
         </div>
         <div className="w-full h-full absolute inset-0">
           <Canvas className="w-full h-full" shadows>
@@ -82,6 +100,8 @@
                 onPointerDown={onPointerDown} 
                 onTouchStart={onTouchStart} 
               />
+
+              
               
               <ambientLight intensity={0.8} />
               <directionalLight position={[5, 5, 5]} intensity={0.5} castShadow />
@@ -98,6 +118,7 @@
                 intensity={1}
                 castShadow
               />
+
             </Suspense>
           </Canvas>
         </div>
