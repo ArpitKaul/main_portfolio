@@ -1,0 +1,55 @@
+export const skills=[
+    {
+        category:"Languages",
+        items:[
+            {id:1,name:"HTML",src:"../assets/skill/html.png"},
+            {id:2,name:"CSS",src:"../assets/css.png"},
+            {id:3,name:"Javascript",src:"../assets/javascript.png"},
+            {id:4,name:"Python",src:"../assets/python.png"},
+            {id:5,name:"Java",src:"../assets/java.png"},
+            {id:6,name:"C++",src:"../assets/cpp.png"},
+            {id:7,name:"C",src:"../assets/cpp.png"}
+        ],
+    },
+    {
+        category:"Frameworks",
+        items:[
+            {id:1,name:"Express",src:"../assets/Express.png"},
+            {id:2,name:"TailwindCss",src:"../assets/Tailwind.png"},
+            {id:3,name:"Nodejs",src:"../assets/Nodejs.png"},
+        ]
+    },
+    {
+        category:"Libraries",
+        items:[
+            {id:1,name:"React",src:"../assets/React.png"},
+            {id:2,name:"Three.js",src:"../assets/Threejs.png"},
+            {id:3,name:"GSAP",src:"../assets/GSAP.png"},
+            {id:4,name:"FramerMotions",src:"../assets/Fram"},
+
+        ]
+    },
+    {
+        category:"Databases",
+        items:[
+            {id:1,name:"MongoDb",src:"../assets/"},
+            {id:3,name:"MySql",src:"../assets/"},
+            {id:3,name:"Firebase",src:"../assets/"},
+        ]
+    },
+    {
+        category:"Tools",
+        items:[
+            {id:1,name:"Git",src:"../assets/Git.png"},
+            {id:2,name:"VSCode",src:"../assets/VSCode.png"},
+            {id:3,name:"Github",src:"../assets/Github.png"},
+            {id:4,name:"Postman",src:"../assets/Postman.png"},
+        ]
+    },
+    {
+        category:"Enviroments",
+        items:[
+            {id:1 , name:"Nodejs",src:"../assets/Nodejs.png"},
+        ]
+    }
+]
