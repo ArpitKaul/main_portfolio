@@ -4,6 +4,8 @@ import Navbar from './Sections/Navbar'
 import Hero from './Sections/Hero'
 import About from './Sections/About'
 import Skills from './Sections/Skills'
+import Project from './Sections/Project'
+import Achievment from './Sections/Achievment'
 
 
 
@@ -14,6 +16,8 @@ const App = () => {
       <Hero/>
       <About/>
       <Skills/>
+      <Project/>
+      <Achievment/>
     </main>
   )
 }
