@@ -6,18 +6,21 @@ export const projects = [
         id: 1,
         src: zintlr, 
         heading: "Zintlr - Smart Lead Management System",
-        technologies: ["React","Tailwind CSS","Framer-motion"]
+        technologies: ["React","Tailwind CSS","Framer-motion"],
+        link: "https://zintlr-268174.netlify.app/"
     },
     {
         id: 2,
         src: planet, 
         heading: "3D Planets - Interactive Space Exploration",
-        technologies: ["React", "Three.js", "@react-three/fiber", "Tailwind CSS"]
+        technologies: ["React", "Three.js", "@react-three/fiber", "Tailwind CSS"],
+        link: "https://3d-planets-six.vercel.app/"
     },
     {
         id: 3,
         src: "project3.jpg", 
         heading: "Shopping Cart - E-commerce Application",
-        technologies: ["React", "Redux", "CSS", "JavaScript"]
+        technologies: ["React", "Redux", "CSS", "JavaScript"],
+        link: "https://3d-planets-six.vercel.app/"
     }
 ];

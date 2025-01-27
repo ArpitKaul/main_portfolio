@@ -59,11 +59,11 @@
       <section className="min-h-screen w-full flex flex-col relative">
         <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
           <p className="text-white sm:text-[4rem] text-4xl font-medium text-center font-serif">
-            Hi, I’m Arpit Kaul <span className="waving-hand">👋</span>
+            Hi, I’m Arpit Kaul 
           </p>
           <p
             className={`text-blue-300 md:text-2xl font-medium font-serif text-2xl ${
-              isMobile ? "text-center mt-3" : "ml-[18.8rem] mt-2"
+              isMobile ? "text-center mt-3" : "ml-[22rem] mt-2"
             }`}
           >
             <Typewriter

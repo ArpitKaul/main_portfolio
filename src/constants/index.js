@@ -65,5 +65,4 @@ export const socialIcons = [
 
 
 
-// skill
 
