@@ -3,28 +3,40 @@ import instaIcon from '../assets/instagram.svg';
 import linkedIcon from '../assets/linkedin.svg';
 import twitterIcon from '../assets/x.svg';
 
-export const navLinks=[
+export const navLinks = [
     {
-        id:1,
-        name: 'Home',
-        href: 'home',
+      id: 'home',
+      name: 'Home',
+      href: 'home',  // Ensure there is an element with id="home"
     },
     {
-        id:2,
-        name: 'About',
-        href: 'about',
+      id: 'about',
+      name: 'About',
+      href: 'about',  // Ensure there is an element with id="about"
     },
     {
-        id:3,
-        name: 'projects',
-        href: 'project',
+      id: 'skills',
+      name: 'Skills',
+      href: 'skills',  // Ensure there is an element with id="skills"
     },
     {
-        id:4,
-        name: 'Contact',
-        href: 'contact',
-    } 
-];
+      id: 'projects',
+      name: 'Projects',
+      href: 'projects',  // Ensure there is an element with id="projects"
+    },
+    {
+      id: 'achievements',
+      name: 'Achievements',
+      href: 'achievements',  // Ensure there is an element with id="achievements"
+    },
+    {
+      id: 'contact',
+      name: 'Contact',
+      href: 'contact',  // Ensure there is an element with id="contact"
+    }
+  ];
+
+
 
 
 

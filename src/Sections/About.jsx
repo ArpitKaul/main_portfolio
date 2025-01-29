@@ -6,7 +6,7 @@ import aboutIcon from '../assets/about.png';
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
       <div className="md:mt-56 md:ml-10 ml-7 flex flex-col md:flex-row">
         {/* Image Section */}
         <div className="order-1 md:order-2 flex justify-center md:justify-start">
@@ -30,7 +30,7 @@ const About = () => {
           <div className="flex mt-6">
             <img className="h-6 w-6 mt-1" src={emailIcon} alt="" />
             <h1 className="text-white text-lg md:text-xl ml-2">
-              akaul7407@gmail.com
+              <a href="mailto:akaul7407@gmail.com">akaul7407@gmail.com</a>
             </h1>
           </div>
 
@@ -44,7 +44,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div>  
   );
 };
 

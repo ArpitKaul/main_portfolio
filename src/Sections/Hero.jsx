@@ -6,7 +6,6 @@
   import { Typewriter } from "react-simple-typewriter";
   import { useMediaQuery } from 
   "react-responsive";
-  import Target from "../components/Target";
  
 
   const Hero = () => {
@@ -56,7 +55,7 @@
     };
 
     return (
-      <section className="min-h-screen w-full flex flex-col relative">
+      <section id="home" className="min-h-screen w-full flex flex-col relative">
         <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
           <p className="text-white sm:text-[4rem] text-4xl font-medium text-center font-serif">
             Hi, I’m Arpit Kaul 
@@ -84,10 +83,10 @@
           </p>
         </div>
         <div className="flex justify-center text-white mt-3">
-          <button className="text-black  bg-yellow-500 w-28 rounded-2xl h-9">Resume</button>
-          <button className="ml-7 text-white  bg-gray-700 w-28 rounded-2xl  h-9">Hire Me</button>
+          <button className="text-black  bg-yellow-500 w-28 rounded-2xl h-9 cursor-pointer">Resume</button>
+          <button className="ml-7 text-white  bg-gray-700 w-28 rounded-2xl  h-9 cursor-pointer">Hire Me</button>
         </div>
-        <div className="w-full h-full absolute inset-0">
+        <div className="w-full h-full inset-0">
           <Canvas className="w-full h-full" shadows>
             <Suspense fallback={<CanvasLoader />}>
               <PerspectiveCamera makeDefault position={[0, 0, 5]} />

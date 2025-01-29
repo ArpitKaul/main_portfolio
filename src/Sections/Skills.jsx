@@ -4,12 +4,12 @@ import { skills } from '../constants/skill'
 
 const Skills = () => {
   return (
-    <div>
+    <div id='skills'>
       <div className='text-center md:mt-56 mt-32'>
       <p className='text-xl text-gray-500'>WHAT I HAVE LEARNT SO FAR</p>
       <h1 className='text-7xl text-white font-bold mt-3 '>SKILLS.</h1>
     </div>
-      <div className='border-2 border-blue-300 md:w-[40rem] md:h-[30rem] mt-28 md:ml-80 flex  h-auto w-auto  '>
+      <div className='border-2 border-gray-800 shadow-2xl bg-gray-800 md:w-[40rem] md:h-[30rem] mt-28 md:ml-80 flex  h-auto w-auto  '>
         <div className='flex flex-col space-y-10 my-9' >
          {skills.map((skillCategory)=>(
           <div className='sm:flex '>

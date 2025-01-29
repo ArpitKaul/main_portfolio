@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen mt-28">
+    <div id='contact' className="flex items-center justify-center min-h-screen mt-28">
       <div className="text-center w-full max-w-lg">
         <h2 className="text-4xl md:text-7xl text-white font-bold mt-3">Contact Me</h2>
         <p className="text-gray-400 text-lg md:text-xl mt-4">
@@ -14,21 +14,21 @@ const Contact = () => {
               
               type="text"
               placeholder="Name"
-              className="w-full px-4 py-3 text-gray-900 rounded-lg focus:outline-none focus:ring-  shadow-sm bg-black"
+              className="w-full px-4 py-3 text-gray-100 rounded-lg focus:outline-none focus:ring-  shadow-sm bg-gray-800"
             />
           </div>
           <div>
             <input
               type="email"
               placeholder="Email"
-              className="w-full px-4 py-3 text-gray-900 rounded-lg bg-black  shadow-sm"
+              className="w-full px-4 py-3 text-gray-100 rounded-lg bg-gray-800 focus:outline-none   shadow-sm"
             />
           </div>
           <div>
             <textarea
               placeholder="Leave Message"
               rows="5"
-              className="w-full px-4 py-3 text-gray-900 rounded-lg bg-black shadow-sm"
+              className="w-full px-4 py-3 text-gray-100 rounded-lg bg-gray-800 shadow-sm"
             ></textarea>
           </div>
           <div>
