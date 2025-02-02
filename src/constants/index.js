@@ -52,25 +52,29 @@ export const socialIcons = [
         id:1,
         name: 'github',
         src: githubIcon,
-        alt:"github"
+        alt:"github",
+        url:"https://github.com/ArpitKaul"
     },
     {
         id:2,
         name: 'instagram',
         src: instaIcon,
-        alt:"instagram"
+        alt:"instagram",
+        url:"https://www.instagram.com/arpit_kaul.26/"
     },
     {
         id:3,
         name: 'linkedin',
         src: linkedIcon,
-        alt:"linkedin"
+        alt:"linkedin",
+        url:"https://www.linkedin.com/in/arpit-kaul-043636275/"
     },
     {
         id:4,
         name: 'twitter',
         src: twitterIcon,
-        alt:"twitter"
+        alt:"twitter",
+        url:"https://x.com/Arpit_Kaul26"
     }
 
 ]

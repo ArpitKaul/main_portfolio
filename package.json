@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@react-three/drei": "^9.120.8",
     "@react-three/fiber": "^8.17.12",
     "@tsparticles/all": "^3.7.1",
     "@tsparticles/react": "^3.0.0",
+    "gsap": "^3.12.7",
     "leva": "^0.9.35",
     "motion": "^11.18.0",
     "react": "^18.2.0",

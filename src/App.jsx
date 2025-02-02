@@ -7,6 +7,7 @@ import Skills from './Sections/Skills'
 import Project from './Sections/Project'
 import Achievment from './Sections/Achievment'
 import Contact from './Sections/Contact'
+import Footer from './Sections/Footer'
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
       <Project/>
       <Achievment/>
       <Contact/>
+      <Footer/>
     </main>
   )
 }

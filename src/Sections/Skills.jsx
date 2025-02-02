@@ -19,17 +19,28 @@ const Skills = () => {
             {skillCategory.category}
               
           </span>
-          <div className="text-white border-gray-500  mx-4">:</div>
-            <div>
-              
-              <div className='flex space-x-6 '>
-                {skillCategory.items.map((skill)=>(
-                  <div key={skill.id} className='flex flex-col  md:ml-2 cursor-pointer ml-8 mt-2 md:mt-0'>
-                    <img className='md:w-9 md:h-9 h-7 w-7' src={skill.src} alt="" />
-                  </div>
-                ))}
-              </div>
-            </div>
+          <div className="text-white border-gray-500  mx-4 md:block hidden">:</div>
+            <div>              
+            <div className="flex space-x-6">
+             {skillCategory.items.map((skill) => (
+            <a
+            key={skill.id}
+            href={skill.url}
+            target='_blank'
+            rel="noopener noreferrer"
+             className="relative group flex flex-col md:ml-2 cursor-pointer ml-8 mt-2 md:mt-0"
+            >
+            <img className="md:w-9 md:h-9 h-7 w-7" src={skill.src} alt={skill.name} />
+
+            {/* Tooltip */}
+            <span className="absolute bottom-10 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+            {skill.name}
+          </span>
+          </a>
+          ))}
+          </div>
+
+            </div>    
             </div>
          ))}
         </div>
