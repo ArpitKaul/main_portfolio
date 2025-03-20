@@ -7,6 +7,8 @@ import { Typewriter } from "react-simple-typewriter";
 import { useMediaQuery } from "react-responsive";
 import Target from "../components/Target";
 import ReactLogo from "../components/ReactLogo";
+import { Link } from 'react-scroll';
+
 
 const sizes = {
   targetPosition: [3.5, 1.3, 0], 
@@ -14,6 +16,7 @@ const sizes = {
 const size = {
   ReactLogoPosition: [-4.1, 1.7, 0], 
 };
+
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -66,12 +69,15 @@ const Hero = () => {
         </p>
       </div>
       <div className="flex justify-center text-white mt-3">
-        <button className="text-black bg-yellow-500 w-28 rounded-2xl h-9 cursor-pointer">
+        <button className="text-black bg-yellow-500 w-28 h-9 rounded-2xl cursor-pointer shadow-glow  transform transition duration-200  active:scale-95 ">
           Resume
         </button>
-        <button className="ml-7 text-white bg-gray-700 w-28 rounded-2xl h-9 cursor-pointer">
-          Hire Me
-        </button>
+            <Link to="contact" smooth={true} duration={1100} offset={-50}>
+            <button className="ml-7 text-white bg-gray-700 w-28 h-9 rounded-2xl cursor-pointer transform transition duration-200 active:scale-95
+               focus:outline-none shadow-lg shadow-gray-500/50 hover:shadow-gray-500/75 backdrop-blur-sm ">
+               Hire Me
+            </button>
+            </Link>
       </div>
       <div className="w-full md:h-[48rem] inset-0 pb-56 md:pb:0 h-[48rem]">
         <Canvas className="w-full h-full" shadows>

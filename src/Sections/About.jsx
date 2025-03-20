@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div id='about'>
       <div className=" md:ml-10 ml-7 flex flex-col md:flex-row">
-        {/* Image Section */}
+        
         <div className="order-1 md:order-2 flex justify-center md:justify-start">
           <img
             className="md:ml-16 md:w-[34rem] md:h-[23rem] w-72 h-72 md:mt-28 mp-10"
@@ -17,10 +17,10 @@ const About = () => {
           />
         </div>
 
-        {/* Text Section */}
+        
         <div className="order-2 md:order-1 w-full md:w-[45rem] text-white mt-10 md:mt-0">
           <h1 className="text-gray-500 text-2xl font-serif ml-4">INTRODUCTION</h1>
-          <h1 className="text-5xl md:text-7xl font-bold mt-6 ">Overview.</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mt-6">Overview.</h1>
           <p className="text-gray-400 mt-6 font-serif text-sm md:text-xl">
             {introduction.description}
           </p>

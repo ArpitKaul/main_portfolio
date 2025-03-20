@@ -6,28 +6,33 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        generalsans:['general Sans' , 'sans-serif'],
-        publicsans:['public sans','sans-serif'],
+      fontFamily: {
+        generalsans: ['general Sans', 'sans-serif'],
+        publicsans: ['public sans', 'sans-serif'],
       },
-      colors:{
-        black:{
+      colors: {
+        black: {
           DEFAULT: '#000',
           100: '#010103',
           200: '#0E0E10',
           300: '#1C1C21',
           500: '#3A3A49',
         },
-        while:{
+        while: {
           DEFAULT: '#FFFFFF',
           800: '#E4E4E6',
           700: '#D6D9E9',
           600: '#AFB0B6',
           500: '#62646C',
-        },
+        },  
       },
+      boxShadow: {
+        'glow': '0 0 15px rgba(255, 204, 0, 0.7)', 
+        'gray-glow': '0 0 15px rgba(128, 128, 128, 0.5)'
+      },
+      
+      
     },
   },
   plugins: [],
 }
-
