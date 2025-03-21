@@ -69,9 +69,13 @@ const Hero = () => {
         </p>
       </div>
       <div className="flex justify-center text-white mt-3">
-        <button className="text-black bg-yellow-500 w-28 h-9 rounded-2xl cursor-pointer shadow-glow  transform transition duration-200  active:scale-95 ">
-          Resume
-        </button>
+      <button 
+  onClick={() => window.open('https://docs.google.com/gview?url=' + window.location.origin + '/resume.docx', '_blank')} 
+  className="text-black bg-yellow-500 w-28 h-9 rounded-2xl cursor-pointer shadow-glow transform transition duration-200 active:scale-95"
+>
+  Resume
+</button>
+
             <Link to="contact" smooth={true} duration={1100} offset={-50}>
             <button className="ml-7 text-white bg-gray-700 w-28 h-9 rounded-2xl cursor-pointer transform transition duration-200 active:scale-95
                focus:outline-none shadow-lg shadow-gray-500/50 hover:shadow-gray-500/75 backdrop-blur-sm ">
